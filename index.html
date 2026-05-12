@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="武伟璐的物件式个人主页，聚焦产品、运营、设计与跨界项目经验。">
+  <title>武伟璐 | Personal Objects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="#hero" aria-label="回到首页">武伟璐</a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="#work">Work</a>
+      <a href="#coding">Coding</a>
+      <a href="#readtrip">Readtrip</a>
+      <a href="#aviation">Aviation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-desk" id="hero" aria-labelledby="hero-title">
+      <div class="desk-center">
+        <p class="eyebrow">Product  /  Content  /  Community</p>
+        <h1 id="hero-title">武伟璐</h1>
+        <p class="desk-lead">用设计与审美，连接产品、内容和社群</p>
+      </div>
+
+      <div class="hero-contact" role="group" aria-label="联系方式">
+        <div class="hero-contact-row">
+            <button type="button" class="hero-contact-btn" data-contact-toast="phone" aria-label="查看电话号码">
+            <svg class="hero-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="6.5" y="3" width="11" height="18" rx="2.2" />
+              <path d="M10 6.5h4M12 17.2h.01" />
+            </svg>
+          </button>
+          <button type="button" class="hero-contact-btn" data-contact-toast="email" aria-label="查看邮箱地址">
+            <svg class="hero-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3.5" y="5.5" width="17" height="13" rx="2" />
+              <path d="M3.5 7.5 12 13l8.5-5.5" />
+            </svg>
+          </button>
+          <button type="button" class="hero-contact-btn" data-contact-toast="wechat" aria-label="查看微信号">
+            <svg class="hero-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2.5" y="6" width="10" height="8" rx="1.8" />
+              <rect x="11.5" y="4" width="10" height="8" rx="1.8" />
+            </svg>
+          </button>
+        </div>
+        <div class="contact-toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+      </div>
+
+      <a class="desk-object object-map" href="#readtrip" aria-label="世界地图，跳转到阅迹 Readtrip">
+        <span class="object-visual"><img src="icon/clean/map.png" alt=""></span>
+      </a>
+      <a class="desk-object object-plane" href="#aviation" aria-label="飞机，跳转到民航产品">
+        <span class="object-visual"><img src="icon/clean/plane.png" alt=""></span>
+      </a>
+      <a class="desk-object object-book" href="#seat" aria-label="书籍，跳转到有个座">
+        <span class="object-visual"><img src="icon/clean/book.png" alt=""></span>
+      </a>
+      <a class="desk-object object-creative" href="#creative" aria-label="文创与视觉，跳转到文创与视觉">
+        <span class="object-visual"><img src="icon/clean/creative.png" alt=""></span>
+      </a>
+      <a class="desk-object object-keyboard" href="#coding" aria-label="键盘，跳转到 Vibe Coding">
+        <span class="object-visual"><img src="icon/clean/data.png" alt=""></span>
+      </a>
+      <a class="desk-object object-tower" href="#french" aria-label="埃菲尔铁塔，跳转到法语">
+        <span class="object-visual"><img src="icon/clean/france.png" alt=""></span>
+      </a>
+      <a class="desk-object object-drum" href="#interests" aria-label="架子鼓，跳转到兴趣与生活">
+        <span class="object-visual"><img src="icon/clean/drum.png" alt=""></span>
+      </a>
+      <a class="desk-object object-camera" href="#interests" aria-label="相机，跳转到兴趣与生活">
+        <span class="object-visual"><img src="icon/clean/camera.png" alt=""></span>
+      </a>
+      <a class="desk-object object-kailash" href="#interests" aria-label="冈仁波齐，跳转到兴趣与生活">
+        <span class="object-visual"><img src="icon/clean/outdoor.png" alt=""></span>
+      </a>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="eyebrow">Recently Made</p>
+        <h2 class="section-title" id="work-title">最近做过的事</h2>
+      </div>
+      <div class="recent-grid">
+        <a class="recent-card" href="#seat">
+          <span class="recent-mark">01</span>
+          <h3>有个座 SEAT </h3>
+          <p>400+ 场线下文化活动，2000+ 核心社群成员。</p>
+        </a>
+        <a class="recent-card" href="#readtrip">
+          <span class="recent-mark">02</span>
+          <h3>阅迹 Readtrip</h3>
+          <p>阅读记录与地图可视化产品，独立设计并上线。</p>
+        </a>
+        <a class="recent-card" href="#coding">
+          <span class="recent-mark">03</span>
+          <h3>Vibe Coding</h3>
+          <p>用 AI 工具把想法快速推到可体验版本。</p>
+        </a>
+        <a class="recent-card" href="#creative">
+          <span class="recent-mark">04</span>
+          <h3>文创与视觉</h3>
+          <p>从创意、画面到线下销售的完整落地。</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="story-section" id="coding" aria-labelledby="coding-title">
+      <div class="story-copy">
+        <p class="eyebrow">Computer / Vibe Coding</p>
+        <h2 id="coding-title">用 AI 工具把想法快速变成可体验的原型。</h2>
+        <p>从Gemini、Cursor、Claude Code、Openclaw，到独立开发 Readtrip，我把 AI 工具当作新的创作与产品验证方式：先做出来，再通过真实体验判断下一步。</p>
+        <div class="tag-list">
+          <span>Cursor</span>
+          <span>Claude Code</span>
+          <span>AI 工具</span>
+          <span>快速原型</span>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div
+          class="gallery-item photo-carousel"
+          data-photo-carousel
+          id="vibe-coding-carousel"
+          role="region"
+          aria-roledescription="轮播"
+          aria-label="Vibe Coding 作品截图"
+          tabindex="0"
+        >
+          <div class="photo-carousel-stage">
+            <button
+              type="button"
+              class="photo-carousel-arrow photo-carousel-arrow--prev"
+              aria-label="上一张"
+              data-car-prev
+            >
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="photo-carousel-viewport" data-car-viewport>
+            <div class="photo-carousel-track" data-car-track>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/vibecoding_haveasit.png"
+                data-title="有个座相关原型"
+                data-caption="用 AI 工具快速搭出可点击、可体验的界面。"
+              >
+                <img src="photo/vibecoding_haveasit.png" alt="有个座相关界面原型截图" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/vibecoding_poem.png"
+                data-title="诗歌主题页面"
+                data-caption="从提示词到成品的快速视觉迭代。"
+              >
+                <img src="photo/vibecoding_poem.png" alt="诗歌主题生成页面截图" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/vibecoding_fireworks.png"
+                data-title="烟花视觉效果"
+                data-caption="实验性动效与画面生成。"
+              >
+                <img src="photo/vibecoding_fireworks.png" alt="烟花视觉效果实验截图" draggable="false">
+              </div>
+            </div>
+            </div>
+            <button
+              type="button"
+              class="photo-carousel-arrow photo-carousel-arrow--next"
+              aria-label="下一张"
+              data-car-next
+            >
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <span>Vibe Coding 作品截图</span>
+          <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section story-section--flip" id="readtrip" aria-labelledby="readtrip-title">
+      <div class="story-copy">
+        <p class="eyebrow">Books / ReadTrip</p>
+        <h2 id="readtrip-title">把阅读变成一张可以回看的地图。</h2>
+        <p>「阅迹Readtrip」是一个阅读记录与地图可视化平台，以“记录阅读足迹”为核心，融合产品设计、前后端开发和用户体验优化。它也代表我把个人兴趣做成产品的能力。</p>
+        <div class="tag-list">
+          <span>产品设计</span>
+          <span>信息结构</span>
+          <span>用户体验</span>
+          <span>独立开发</span>
+        </div>
+        <a class="inline-link" href="https://www.readtrip.club" target="_blank" rel="noreferrer">访问 Readtrip ↗</a>
+      </div>
+      <div class="gallery-grid">
+        <div
+          class="gallery-item photo-carousel"
+          data-photo-carousel
+          id="readtrip-carousel"
+          role="region"
+          aria-roledescription="轮播"
+          aria-label="Readtrip 产品截图"
+          tabindex="0"
+        >
+          <div class="photo-carousel-stage">
+            <button
+              type="button"
+              class="photo-carousel-arrow photo-carousel-arrow--prev"
+              aria-label="上一张"
+              data-car-prev
+            >
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="photo-carousel-viewport" data-car-viewport>
+            <div class="photo-carousel-track" data-car-track>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip1.png"
+                data-title="Readtrip 产品截图 1"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip1.png" alt="Readtrip 产品截图 1" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip2.png"
+                data-title="Readtrip 产品截图 2"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip2.png" alt="Readtrip 产品截图 2" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip3.png"
+                data-title="Readtrip 产品截图 3"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip3.png" alt="Readtrip 产品截图 3" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip4.png"
+                data-title="Readtrip 产品截图 4"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip4.png" alt="Readtrip 产品截图 4" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip5.png"
+                data-title="Readtrip 产品截图 5"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip5.png" alt="Readtrip 产品截图 5" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip7.png"
+                data-title="Readtrip 产品截图 7"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip7.png" alt="Readtrip 产品截图 7" draggable="false">
+              </div>
+              <div
+                class="photo-carousel-slide"
+                data-full="photo/readtrip8.png"
+                data-title="Readtrip 产品截图 8"
+                data-caption="阅读记录与地图可视化界面。"
+              >
+                <img src="photo/readtrip8.png" alt="Readtrip 产品截图 8" draggable="false">
+              </div>
+            </div>
+            </div>
+            <button
+              type="button"
+              class="photo-carousel-arrow photo-carousel-arrow--next"
+              aria-label="下一张"
+              data-car-next
+            >
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <span>Readtrip 产品截图</span>
+          <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section" id="aviation" aria-labelledby="aviation-title">
+      <div class="story-copy">
+        <p class="eyebrow">Plane / Aviation</p>
+        <h2 id="aviation-title">参与行业AI规划，并将业务需求转化为可落地的产品方案。</h2>
+        <p>在民航空管领域，我长期参与AI应用规划、运行评估、数据分析和平台建设。这段经历最重要的不是行业标签，而是复杂问题拆解、需求分析、跨方推进与数据可视化能力。</p>
+        <div class="tag-list">
+          <span>需求分析</span>
+          <span>复杂项目推进</span>
+          <span>数据可视化</span>
+          <span>平台建设</span>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div
+          class="gallery-item photo-carousel"
+          data-photo-carousel
+          role="region"
+          aria-roledescription="轮播"
+          aria-label="民航产品图组"
+          tabindex="0"
+        >
+          <div class="photo-carousel-stage">
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--prev" aria-label="上一张" data-car-prev>
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="photo-carousel-viewport" data-car-viewport>
+              <div class="photo-carousel-track" data-car-track>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/plane1.jpg"
+                  data-title="民航与空管相关影像"
+                  data-caption="工作记录与现场。"
+                >
+                  <img src="photo/plane1.jpg" alt="民航相关照片 plane1" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/plane2.png"
+                  data-title="民航与空管相关影像"
+                  data-caption="工作记录与现场。"
+                >
+                  <img src="photo/plane2.png" alt="民航相关照片 plane2" draggable="false">
+                </div>
+              </div>
+            </div>
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--next" aria-label="下一张" data-car-next>
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <span>行业数据平台与AI规划</span>
+          <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section story-section--flip" id="seat" aria-labelledby="seat-title">
+      <div class="story-copy">
+        <p class="eyebrow">Activities / SEAT</p>
+        <h2 id="seat-title">让陌生人愿意走进同一个房间，并持续留下来。</h2>
+        <p>我创办并主导「有个座 SEAT」，累计举办读书、电影、外语、圆桌会等活动 400+ 场，沉淀 2000+ 核心社群成员，曾获北京卫视栏目报道，把内容、社群和线下活动串成持续增长的闭环。</p>
+        <div class="tag-list">
+          <span>社群运营</span>
+          <span>活动策划</span>
+          <span>主持控场</span>
+          <span>内容增长</span>
+          <span>用户沉淀</span>
+        </div>
+        <a class="inline-link" href="https://xhslink.com/m/8ita7ZVoOPc" target="_blank" rel="noreferrer">访问有个座SEAT ↗</a>
+      </div>
+      <div class="gallery-grid">
+        <div
+          class="gallery-item photo-carousel"
+          data-photo-carousel
+          role="region"
+          aria-roledescription="轮播"
+          aria-label="有个座活动现场"
+          tabindex="0"
+        >
+          <div class="photo-carousel-stage">
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--prev" aria-label="上一张" data-car-prev>
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="photo-carousel-viewport" data-car-viewport>
+              <div class="photo-carousel-track" data-car-track>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat0.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat0.JPG" alt="有个座活动现场 seat0.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat1.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat1.JPG" alt="有个座活动现场 seat1.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat2.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat2.JPG" alt="有个座活动现场 seat2.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat3.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat3.JPG" alt="有个座活动现场 seat3.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat4.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat4.JPG" alt="有个座活动现场 seat4.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat5.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat5.JPG" alt="有个座活动现场 seat5.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat6.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat6.JPG" alt="有个座活动现场 seat6.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat7.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat7.JPG" alt="有个座活动现场 seat7.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat8.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat8.JPG" alt="有个座活动现场 seat8.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat9.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat9.JPG" alt="有个座活动现场 seat9.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat10.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat10.JPG" alt="有个座活动现场 seat10.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/seat12.JPG"
+                  data-title="有个座活动现场"
+                  data-caption="读书、电影与社群活动现场。"
+                >
+                  <img src="photo/seat12.JPG" alt="有个座活动现场 seat12.JPG" draggable="false">
+                </div>
+              </div>
+            </div>
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--next" aria-label="下一张" data-car-next>
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <span>活动现场影像</span>
+          <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section" id="creative" aria-labelledby="creative-title">
+      <div class="story-copy">
+        <p class="eyebrow">Creative / Visual</p>
+        <h2 id="creative-title">从创意、画面到线下销售，把视觉做成可触摸的体验。</h2>
+        <p>文创与视觉侧，我负责从概念、主视觉到周边与印刷落地，并参与线下陈列与销售闭环：让设计不只停留在屏幕，而能承接活动氛围与真实购买决策。</p>
+        <div class="tag-list">
+          <span>视觉设计</span>
+          <span>周边文创</span>
+          <span>印刷落地</span>
+          <span>线下销售</span>
+          <span>活动物料</span>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div
+          class="gallery-item photo-carousel"
+          data-photo-carousel
+          role="region"
+          aria-roledescription="轮播"
+          aria-label="文创与视觉作品"
+          tabindex="0"
+        >
+          <div class="photo-carousel-stage">
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--prev" aria-label="上一张" data-car-prev>
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="photo-carousel-viewport" data-car-viewport>
+              <div class="photo-carousel-track" data-car-track>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/creative01.png"
+                  data-title="文创与视觉"
+                  data-caption="周边、海报、陈列与活动现场。"
+                >
+                  <img src="photo/creative01.png" alt="文创与视觉 creative01.png" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/creative02.png"
+                  data-title="文创与视觉"
+                  data-caption="周边、海报、陈列与活动现场。"
+                >
+                  <img src="photo/creative02.png" alt="文创与视觉 creative02.png" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/creative1.JPG"
+                  data-title="文创与视觉"
+                  data-caption="周边、海报、陈列与活动现场。"
+                >
+                  <img src="photo/creative1.JPG" alt="文创与视觉 creative1.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/creative2.JPG"
+                  data-title="文创与视觉"
+                  data-caption="周边、海报、陈列与活动现场。"
+                >
+                  <img src="photo/creative2.JPG" alt="文创与视觉 creative2.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/creative3.jpg"
+                  data-title="文创与视觉"
+                  data-caption="周边、海报、陈列与活动现场。"
+                >
+                  <img src="photo/creative3.jpg" alt="文创与视觉 creative3.jpg" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/creative4.JPG"
+                  data-title="文创与视觉"
+                  data-caption="周边、海报、陈列与活动现场。"
+                >
+                  <img src="photo/creative4.JPG" alt="文创与视觉 creative4.JPG" draggable="false">
+                </div>
+              </div>
+            </div>
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--next" aria-label="下一张" data-car-next>
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <span>文创与视觉</span>
+          <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section story-section--flip" id="french" aria-labelledby="french-title">
+      <div class="story-copy">
+        <p class="eyebrow">Language / French</p>
+        <h2 id="french-title">法语是语言能力，也是一种长期自学与内容输出方式。</h2>
+        <p>我曾在法国学习航空，具备DELF B2法语水平，曾运营法语知识账号并形成个人IP，，积累7000+粉丝，并组织50+场外语活动，将语言能力转化为内容创作与社群连接。</p>
+        <div class="tag-list">
+          <span>语言能力</span>
+          <span>自驱学习</span>
+          <span>内容输出</span>
+          <span>社群运营</span>
+          <span>活动组织</span>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div
+          class="gallery-item photo-carousel"
+          data-photo-carousel
+          role="region"
+          aria-roledescription="轮播"
+          aria-label="法语学习与内容输出"
+          tabindex="0"
+        >
+          <div class="photo-carousel-stage">
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--prev" aria-label="上一张" data-car-prev>
+              <span aria-hidden="true">‹</span>
+            </button>
+            <div class="photo-carousel-viewport" data-car-viewport>
+              <div class="photo-carousel-track" data-car-track>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/france1.png"
+                  data-title="法语学习与内容输出"
+                  data-caption="笔记、账号内容与学习记录。"
+                >
+                  <img src="photo/france1.png" alt="法语学习 france1.png" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/france2.JPG"
+                  data-title="法语学习与内容输出"
+                  data-caption="笔记、账号内容与学习记录。"
+                >
+                  <img src="photo/france2.JPG" alt="法语学习 france2.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/france3.JPG"
+                  data-title="法语学习与内容输出"
+                  data-caption="笔记、账号内容与学习记录。"
+                >
+                  <img src="photo/france3.JPG" alt="法语学习 france3.JPG" draggable="false">
+                </div>
+                <div
+                  class="photo-carousel-slide"
+                  data-full="photo/france4.JPG"
+                  data-title="法语学习与内容输出"
+                  data-caption="笔记、账号内容与学习记录。"
+                >
+                  <img src="photo/france4.JPG" alt="法语学习 france4.JPG" draggable="false">
+                </div>
+              </div>
+            </div>
+            <button type="button" class="photo-carousel-arrow photo-carousel-arrow--next" aria-label="下一张" data-car-next>
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <span>法语学习与内容输出</span>
+          <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="interests-bundle" id="interests" aria-labelledby="interests-title">
+      <div class="story-section interests-main">
+        <div class="story-copy">
+          <p class="eyebrow">Interests / Hobbies</p>
+          <h2 id="interests-title">节奏、镜头与自然：保持好奇，保持热爱，保持探索。</h2>
+          <p>鼓点的秩序与激情，给予我能量与现场感，在节拍中安放理性与狂野；自然纪实与人文温度，定义我的审美，用真实画面承载情绪；户外则让我保持探索欲，在山野中重感身体，为生活留出呼吸感。</p>
+          <div class="tag-list">
+            <span>架子鼓</span>
+            <span>纪实摄影</span>
+            <span>户外登山</span>
+            <span>生活记录</span>
+            <span>舞台表达</span>
+          </div>
+        </div>
+        <div class="gallery-grid">
+          <div
+            class="gallery-item photo-carousel"
+            data-photo-carousel
+            role="region"
+            aria-roledescription="轮播"
+            aria-label="兴趣与生活：架子鼓、摄影、户外"
+            tabindex="0"
+          >
+            <div class="photo-carousel-stage">
+              <button type="button" class="photo-carousel-arrow photo-carousel-arrow--prev" aria-label="上一张" data-car-prev>
+                <span aria-hidden="true">‹</span>
+              </button>
+              <div class="photo-carousel-viewport" data-car-viewport>
+                <div class="photo-carousel-track" data-car-track>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/drum1.JPG"
+                    data-title="架子鼓"
+                    data-caption="兴趣与生活：练习与现场。"
+                  >
+                    <img src="photo/drum1.JPG" alt="架子鼓 drum1.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/drum2.JPG"
+                    data-title="架子鼓"
+                    data-caption="兴趣与生活：练习与现场。"
+                  >
+                    <img src="photo/drum2.JPG" alt="架子鼓 drum2.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/drum4.JPG"
+                    data-title="架子鼓"
+                    data-caption="兴趣与生活：练习与现场。"
+                  >
+                    <img src="photo/drum4.JPG" alt="架子鼓 drum4.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/drum5.JPG"
+                    data-title="架子鼓"
+                    data-caption="兴趣与生活：练习与现场。"
+                  >
+                    <img src="photo/drum5.JPG" alt="架子鼓 drum5.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/camera1.JPG"
+                    data-title="摄影"
+                    data-caption="兴趣与生活：纪实与活动记录。"
+                  >
+                    <img src="photo/camera1.JPG" alt="摄影 camera1.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/camera2.JPG"
+                    data-title="摄影"
+                    data-caption="兴趣与生活：纪实与活动记录。"
+                  >
+                    <img src="photo/camera2.JPG" alt="摄影 camera2.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/camera4.JPG"
+                    data-title="摄影"
+                    data-caption="兴趣与生活：纪实与活动记录。"
+                  >
+                    <img src="photo/camera4.JPG" alt="摄影 camera4.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/camera5.JPG"
+                    data-title="摄影"
+                    data-caption="兴趣与生活：纪实与活动记录。"
+                  >
+                    <img src="photo/camera5.JPG" alt="摄影 camera5.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor1.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor1.JPG" alt="户外 outdoor1.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor2.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor2.JPG" alt="户外 outdoor2.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor3.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor3.JPG" alt="户外 outdoor3.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor4.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor4.JPG" alt="户外 outdoor4.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor5.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor5.JPG" alt="户外 outdoor5.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor6.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor6.JPG" alt="户外 outdoor6.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor7.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor7.JPG" alt="户外 outdoor7.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor8.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor8.JPG" alt="户外 outdoor8.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor9.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor9.JPG" alt="户外 outdoor9.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor10.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor10.JPG" alt="户外 outdoor10.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor11.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor11.JPG" alt="户外 outdoor11.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor13.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor13.JPG" alt="户外 outdoor13.JPG" draggable="false">
+                  </div>
+                  <div
+                    class="photo-carousel-slide"
+                    data-full="photo/outdoor14.JPG"
+                    data-title="户外"
+                    data-caption="兴趣与生活：登山与自然。"
+                  >
+                    <img src="photo/outdoor14.JPG" alt="户外 outdoor14.JPG" draggable="false">
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="photo-carousel-arrow photo-carousel-arrow--next" aria-label="下一张" data-car-next>
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+            <span>架子鼓 · 摄影 · 户外</span>
+            <div class="photo-carousel-dots" data-car-dots aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-section__top">
+        <p class="eyebrow">Contact</p>
+        <div class="contact-section__title-row">
+          <h2 class="section-title" id="contact-title">欢迎联系</h2>
+          <div class="hero-contact hero-contact--footer" role="group" aria-label="联系方式">
+            <div class="hero-contact-row">
+              <button type="button" class="hero-contact-btn" data-contact-toast="phone" aria-label="查看电话号码">
+                <svg class="hero-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="6.5" y="3" width="11" height="18" rx="2.2" />
+                  <path d="M10 6.5h4M12 17.2h.01" />
+                </svg>
+              </button>
+              <button type="button" class="hero-contact-btn" data-contact-toast="email" aria-label="查看邮箱地址">
+                <svg class="hero-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3.5" y="5.5" width="17" height="13" rx="2" />
+                  <path d="M3.5 7.5 12 13l8.5-5.5" />
+                </svg>
+              </button>
+              <button type="button" class="hero-contact-btn" data-contact-toast="wechat" aria-label="查看微信号">
+                <svg class="hero-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2.5" y="6" width="10" height="8" rx="1.8" />
+                  <rect x="11.5" y="4" width="10" height="8" rx="1.8" />
+                </svg>
+              </button>
+            </div>
+            <div class="contact-toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 武伟璐</p>
+  </footer>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button class="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+    <figure>
+      <img src="" alt="">
+      <figcaption>
+        <strong></strong>
+        <span></span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

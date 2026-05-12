@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Community Placeholder</title>
+  <desc id="desc">Placeholder artwork for community and hosting work.</desc>
+  <rect width="1200" height="800" fill="#F0EDE6"/>
+  <rect x="232" y="190" width="736" height="420" rx="34" fill="none" stroke="#111111" stroke-width="16"/>
+  <circle cx="420" cy="380" r="74" fill="none" stroke="#737373" stroke-width="14"/>
+  <circle cx="600" cy="380" r="74" fill="none" stroke="#737373" stroke-width="14"/>
+  <circle cx="780" cy="380" r="74" fill="none" stroke="#737373" stroke-width="14"/>
+  <path d="M350 522C390 482 450 482 490 522M530 522C570 482 630 482 670 522M710 522C750 482 810 482 850 522" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <text x="90" y="710" fill="#737373" font-family="Manrope, Arial, sans-serif" font-size="38">Community / Hosting / Content</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Readtrip Placeholder</title>
+  <desc id="desc">Placeholder artwork for Readtrip reading map product.</desc>
+  <rect width="1200" height="800" fill="#F0EDE6"/>
+  <path d="M280 170H548C618 170 670 222 670 292V622H402C332 622 280 570 280 500V170Z" fill="none" stroke="#111111" stroke-width="16"/>
+  <path d="M670 292C670 222 722 170 792 170H920V622H670V292Z" fill="none" stroke="#111111" stroke-width="16"/>
+  <path d="M455 318C455 318 512 269 575 318C638 367 695 318 695 318C695 318 752 269 815 318M455 430C455 430 512 381 575 430C638 479 695 430 695 430C695 430 752 381 815 430" fill="none" stroke="#737373" stroke-width="12" stroke-linecap="round"/>
+  <text x="90" y="710" fill="#737373" font-family="Manrope, Arial, sans-serif" font-size="38">Readtrip / Reading Map</text>
+</svg>

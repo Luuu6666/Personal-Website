@@ -1,3 +1,29 @@
+const rewriteOssMediaUrls = () => {
+  const raw = typeof window !== "undefined" ? window.__OSS_BASE__ : "";
+  const base = String(raw || "")
+    .trim()
+    .replace(/\/+$/, "");
+  if (!base) return;
+
+  document.querySelectorAll("img[src]").forEach((img) => {
+    const s = img.getAttribute("src");
+    if (!s || /^https?:\/\//i.test(s)) return;
+    if (s.startsWith("photo/") || s.startsWith("icon/")) {
+      img.setAttribute("src", `${base}/${s}`);
+    }
+  });
+
+  document.querySelectorAll("[data-full]").forEach((el) => {
+    const v = el.getAttribute("data-full");
+    if (!v || /^https?:\/\//i.test(v)) return;
+    if (v.startsWith("photo/") || v.startsWith("icon/")) {
+      el.setAttribute("data-full", `${base}/${v}`);
+    }
+  });
+};
+
+rewriteOssMediaUrls();
+
 const anchorLinks = document.querySelectorAll('a[href^="#"]');
 
 anchorLinks.forEach((anchor) => {
